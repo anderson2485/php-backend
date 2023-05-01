@@ -1,0 +1,22 @@
+<!DOCTYPEhtml >
+<html> _ _
+  < cabeça >
+    < title > Cadastro de usuário </ title >
+    < link  rel =" folha de estilo " type =" text/css " href =" styles.css " />
+  </ cabeça >
+  < corpo >
+    < h1 > Cadastro de usuário </ h1 >
+    < método do formulário  =" post " ação =" cadastro.php " >
+      < label  for =" nome " > Nome: </ label >
+      < input  type =" text " name =" nome " obrigatório />
+      < br />
+      < label  for =" email " > E-mail: </ label >
+      < input  type =" email " name =" email " obrigatório />
+      < br />
+      < label  for =" senha " > Senha: </ label >
+      < input  type =" password " name =" senha " obrigatório />
+      < br />
+      < input  type =" submit " value =" Cadastrar " />
+    </forma> _ _
+  </ corpo >
+</html> _ _
