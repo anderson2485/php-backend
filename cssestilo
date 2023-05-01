@@ -1,0 +1,43 @@
+. recipiente {
+	largura :  400 px ;
+	margem :  0 automático;
+	preenchimento :  20 px ;
+	borda :  1 px sólido # ccc ;
+	raio da borda :  5 px ;
+	box-shadow :  0  0  10 px  rgba ( 0 , 0 , 0 , .2 );
+	cor de fundo :  # fff ;
+}
+
+h1 {
+	alinhamento de texto : centro;
+}
+
+etiqueta {
+	exibição : bloco;
+	margem inferior :  10 px ;
+}
+
+entrada [ tipo = "texto" ] ,
+input [ tipo = "e-mail" ] ,
+entrada [ tipo = "senha" ] {
+	largura :  100 % ;
+	preenchimento :  10 px ;
+	margem inferior :  20 px ;
+	fronteira : nenhum;
+	raio da borda :  5 px ;
+	box-shadow :  0  0  5 px  rgba ( 0 , 0 , 0 , .2 );
+}
+
+entrada [ tipo = "enviar" ] {
+	largura :  100 % ;
+	preenchimento :  10 px ;
+	cor de fundo :  # 4CAF50 ;
+	cor :  #fff ; _
+	fronteira : nenhum;
+	raio da borda :  5 px ;
+	cursor : ponteiro;
+}
+
+input [ type = "enviar" ] : passe o mouse {
+	cor de fundo :  # 3e8e41 ;
+}
